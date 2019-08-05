@@ -1,0 +1,43 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #00274c!important;
+}
+
+#profile {
+    margin-top: 8vh;
+}
+
+#profile img {
+    border-radius: 40%;
+    margin-bottom: 0em;
+}
+
+#profile h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 0em;
+    margin-bottom: 15px;
+}
+
+#profile p {
+    margin-top: 0em;
+}
+
+.text-center {
+	text-align: center!important
+}
+
+.text-light {
+	color: #f8f9fa!important
+}
+
+footer {
+    clear:both;
+	text-align: center;
+    color: #00274c;
+    background: #ffcb05;
+    bottom: 0;
+}
