@@ -34,10 +34,29 @@ body {
 	color: #f8f9fa!important
 }
 
+a {
+    color: inherit;
+}
+
+#icons {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 1em;
+}
+
+.fab:hover {
+    color: #ffcb05;
+}
+
 footer {
     clear:both;
 	text-align: center;
     color: #00274c;
     background: #ffcb05;
+    position: fixed;
     bottom: 0;
+    width: 100%;
+    font-size: 20px;
 }
