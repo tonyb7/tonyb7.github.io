@@ -39,7 +39,7 @@ a {
 }
 
 #icons {
-    width: 300px;
+    width: 420px;
     display: flex;
     justify-content: space-between;
     margin: 10px auto;
@@ -48,6 +48,47 @@ a {
 
 .fab:hover {
     color: #ffcb05;
+}
+
+#instagram:hover {
+  background:
+    /* left bottom */
+    radial-gradient(circle farthest-corner at 35% 90%, #FCAF45, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #FFDC80, transparent 50%),
+    /* left top */
+    radial-gradient(ellipse farthest-corner at 0 -25%, #833AB4, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #E1306C, transparent 50%),
+    /* right top */
+    radial-gradient(ellipse farthest-corner at 100% 0, #E1306C, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #F56040, transparent 50%),
+    /* right bottom */
+    radial-gradient(ellipse farthest-corner at 100% 100%, #FD1D1D, transparent),
+    /* base coat */
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#facebook:hover {
+  color: #3C5A99;
+}
+
+
+#snapchat:hover {
+  color: #FFFC00;
+}
+
+#youtube:hover {
+  color: #FF0000;
+}
+
+#linkedin:hover {
+  color: #0077B5;
+}
+
+#github:hover {
+  color: black;
 }
 
 footer {
