@@ -38,8 +38,32 @@ a {
     color: inherit;
 }
 
-#icons {
+#header-text {
+  margin: 10px auto;
+}
+
+/* phones */
+@media only screen and (max-width: 400px) {
+  #icons {
+    width: 330px;
+  }
+}
+
+/* phones */
+@media only screen and (min-width: 401px) and (max-width: 960px){
+  #icons {
+    width: device-width;
+  }
+}
+
+/* phones */
+@media only screen and (min-width: 961px) {
+  #icons {
     width: 420px;
+  }
+}
+
+#icons {
     display: flex;
     justify-content: space-between;
     margin: 10px auto;
@@ -93,7 +117,7 @@ a {
 
 footer {
     clear:both;
-	text-align: center;
+	  text-align: center;
     color: #00274c;
     background: #ffcb05;
     position: fixed;
