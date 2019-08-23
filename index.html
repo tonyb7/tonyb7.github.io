@@ -8,7 +8,10 @@
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		-->
 		<script src="https://kit.fontawesome.com/76a7f96d04.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="js/menu.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/menu.css">
 
@@ -50,8 +53,7 @@
 				<tr>
 					<td>
 						<div class="dropdown">
-							<button onclick="toggleMenu('0')" onmouseover="openMenu('0')" onmouseout="closeMenu('0')"
-											class="dropbtn"><i class="fas fa-chevron-circle-down"></i> Resume</button>
+							<button id="dropbtn0" class="dropbtn"><i class="fas fa-chevron-circle-down"></i> Resume</button>
 							<div id="dropdowns0" class="dropdown-content">
 								<a href="http://www.linkedin.com/in/tongxu-bai-76b056135/">LinkedIn</a>
 								<a href="resume.pdf">PDF</a>
@@ -62,8 +64,7 @@
 				<tr>
 					<td>
 						<div class="dropdown">
-							<button onclick="toggleMenu('1')" onmouseover="openMenu('1')" onmouseout="closeMenu('1')"
-											class="dropbtn"><i class="fas fa-chevron-circle-down"></i> Projects</button>
+							<button id="dropbtn1" class="dropbtn"><i class="fas fa-chevron-circle-down"></i> Projects</button>
 							<div id="dropdowns1" class="dropdown-content">
 								<a href="http://lichess.org/@/FlamingDragon_9000/">Chess Bot</a>
 								<a href="http://www.ncbi.nlm.nih.gov/pubmed/29190776">Brain Paper</a>
