@@ -1,5 +1,5 @@
 
-// var buttons = 2;
+var buttons = 2;
 var open0 = false;
 var open1 = false;
 
@@ -24,7 +24,7 @@ window.onload = function(event) {
         closeMenu(id);
       });
     }
-  }*/
+  }
 
   if ($(window).width () < 960) {
     // mobile
@@ -48,7 +48,13 @@ window.onload = function(event) {
     document.getElementById('dropbtn1').addEventListener("mouseout", function() {
       closeMenu('1');
     });
-  }
+  } */
+  document.getElementById('dropbtn0').addEventListener("click", function() {
+    toggleMenu('0');
+  });
+  document.getElementById('dropbtn1').addEventListener("click", function() {
+    toggleMenu('1');
+  });
 
 }
 
