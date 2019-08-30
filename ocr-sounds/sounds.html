@@ -30,32 +30,6 @@
  
 <body>
 
-    <script type="text/javascript">
-        // var loneliness = document.getElementById('loneliness');
-        // var gasping = document.getElementById('gasping');
-        // loneliness.playing = false;
-        // gasping.playing = false;
-        function playSound(x) {
-            if (x.currentTime > 5 || x.currentTime == 0) {
-                pauseAudio(x);
-            }
-            if (x.playing) {
-                pauseAudio(x);
-            } else {
-                playAudio(x);
-            }
-        }
-        function playAudio(x) {    
-            x.play();
-            x.playing = true;
-        }
-        function pauseAudio(x) {
-            x.pause();
-            x.currentTime = 0;
-            x.playing = false;
-        }
-	</script>
-
     <div id = "bigbody">
         <!-- bugs:
             multiple buttons for same sound
@@ -115,7 +89,7 @@
 		<h2>
             Full Sounds
         </h2>
-        <p>These are the full sound clips in case something doesn't work. 
+        <p>These are the full sound clips. 
             If you click the YouTube links, they may have ads, so open them up beforehand if you want to use them.</p>
         <table align="center">
             <tr>
@@ -167,7 +141,7 @@
         <h2>
             YouTube vids
         </h2>
-        <p>Vids themselves embedded here. They should start and end at the right time automatically.</p>
+        <p>Vids themselves embedded here.</p>
         <p><i>Sad Violin Music</i></p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/7ODcC5z6Ca0?start=0&end=5&version=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p><i>Voicemail</i>: Not available. Go to <a href="https://youtu.be/gbstL189F4Y?t=7" target="_blank">YouTube Link.</a></p>
